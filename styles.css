@@ -1,0 +1,41 @@
+/* Hide Shorts shelf on homepage */
+ytd-rich-shelf-renderer[is-shorts],
+ytd-reel-shelf-renderer {
+  display: none !important;
+}
+
+/* Hide Shorts tab in sidebar */
+ytd-guide-entry-renderer a[title="Shorts"],
+ytd-mini-guide-entry-renderer a[title="Shorts"] {
+  display: none !important;
+}
+
+/* Hide Shorts in search results */
+ytd-reel-shelf-renderer,
+ytd-search ytd-reel-shelf-renderer {
+  display: none !important;
+}
+
+/* Hide Shorts badge/labels */
+ytd-thumbnail-overlay-time-status-renderer[overlay-style="SHORTS"] {
+  display: none !important;
+}
+
+/* Hide Shorts in video recommendations */
+ytd-rich-item-renderer:has(a[href*="/shorts/"]),
+ytd-video-renderer:has(a[href*="/shorts/"]),
+ytd-grid-video-renderer:has(a[href*="/shorts/"]),
+ytd-compact-video-renderer:has(a[href*="/shorts/"]) {
+  display: none !important;
+}
+
+/* Hide Shorts section in subscriptions */
+ytd-rich-section-renderer:has(ytd-reel-shelf-renderer) {
+  display: none !important;
+}
+
+/* Hide Shorts pivot bar item */
+yt-chip-cloud-chip-renderer:has([title="Shorts"]),
+ytd-feed-filter-chip-bar-renderer yt-chip-cloud-chip-renderer:nth-child(2) {
+  display: none !important;
+}
