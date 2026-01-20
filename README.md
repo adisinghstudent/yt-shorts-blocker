@@ -1,41 +1,23 @@
 # YouTube Shorts Blocker
 
-A minimal Chrome/Arc extension that removes YouTube Shorts from your browsing experience.
+Remove Shorts from YouTube. Works on Chrome and Arc.
 
-## What it does
+---
 
-- Hides the Shorts shelf on the homepage
-- Removes the Shorts tab from the sidebar
-- Filters out Shorts from search results and recommendations
-- Automatically redirects `/shorts/` URLs to the regular video player
+## <img src="https://www.google.com/chrome/static/images/chrome-logo-m100.svg" width="20"/> Chrome
 
-## Installation
+1. [Download this repo](https://github.com/adisinghstudent/yt-shorts-blocker/archive/refs/heads/main.zip) and unzip
+2. Go to `chrome://extensions` → Enable **Developer mode** (top right)
+3. Click **Load unpacked** → Select the unzipped folder
 
-### Chrome
+---
 
-1. Download or clone this repository
-2. Open Chrome and navigate to `chrome://extensions/`
-3. Enable **Developer mode** (toggle in the top right corner)
-4. Click **Load unpacked**
-5. Select the `yt-shorts-blocker` folder
-6. Done — enjoy YouTube without Shorts
+## <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Arc_%28browser%29_logo.svg/1200px-Arc_%28browser%29_logo.svg.png" width="20"/> Arc
 
-### Arc
+1. [Download this repo](https://github.com/adisinghstudent/yt-shorts-blocker/archive/refs/heads/main.zip) and unzip
+2. Go to `arc://extensions` → Enable **Developer mode** (top right)
+3. Click **Load unpacked** → Select the unzipped folder
 
-1. Download or clone this repository
-2. Open Arc and navigate to `arc://extensions/`
-3. Enable **Developer mode** (toggle in the top right corner)
-4. Click **Load unpacked**
-5. Select the `yt-shorts-blocker` folder
-6. Done — enjoy YouTube without Shorts
+---
 
-## Updating the icon
-
-To use a custom icon:
-
-1. Replace `icon.png` with your own 128x128 PNG image
-2. Reload the extension in `chrome://extensions/` or `arc://extensions/`
-
-## License
-
-MIT
+Enjoy YouTube without Shorts.
